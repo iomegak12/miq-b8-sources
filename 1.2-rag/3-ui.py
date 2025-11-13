@@ -75,7 +75,7 @@ def main():
         st.set_page_config(page_title="RAG CSAE Study", layout="wide")
         st.sidebar.title("RAG CSAE Study - Search")
 
-        st.title("RAG CSAE Study - UI")
+        st.title("RAG CASE Study - UI")
         st.write(
             "This application allows you to search for similar documents and summarize them using LLMs.")
 

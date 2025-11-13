@@ -26,7 +26,7 @@ def main():
         user_question = st.text_input(
             "Ask your questions about HR Employees Attritioning ...")
 
-        csv_path = "./lc-training-data/hr-employees-attritions-internet.csv"
+        csv_path = "../lc-training-data/hr-employees-attritions-internet.csv"
         df = pd.read_csv(csv_path)
 
         model_name = "gpt-4o"
@@ -42,7 +42,7 @@ def main():
         
         agent = create_pandas_dataframe_agent(
             llm,
-            df,
+            [df],
             verbose=True,
             allow_dangerous_code=True,
         )

@@ -33,12 +33,12 @@ pinecone-client
 
 # tabulate
 
-# wikipedia
-# arxiv
-# langgraph
+wikipedia
+arxiv
+langgraph
 # langchain-anthropic
 
-# chroma
+#chroma
 # langchain-chroma
 # nbformat
 
