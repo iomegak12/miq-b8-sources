@@ -48,6 +48,7 @@ def model_call(state: AgentState) -> AgentState:
 
 def should_continue(state: AgentState) -> str:
     last = state["messages"][-1]
+    
     if isinstance(last, AIMessage) and last.tool_calls:
         return "continue"
 
